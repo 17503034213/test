@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{margin:0;padding:0;}
+    #d1{text-align:center;}
+</style>
+<script src="jquery.js"></script>
+<body>
+    <div id="d1"><h1>圣诞节快乐吧！！！</h1></div>
+    <script>
+        $("#d1").mouseover(function(){
+            document.body.style.background=rgb();
+        })
+        function rgb(){
+            var r=Math.floor(Math.random()*256);
+            var g=Math.floor(Math.random()*256);
+            var b=Math.floor(Math.random()*256);
+            return `rgb(${r},${g},${b})`
+        }
+    </script>
+</body>
+</html>
